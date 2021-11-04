@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- <title>Causal Inference Analysis for Information Retrieval, INFORMS'21 Session</title> -->
+<!--     <link rel="icon" href="./images/Logo.png">
+ -->
+    <!-- favicon
+    <link href="favicon.png" rel=icon>-->
+
+    <!-- web-fonts -->
+    <link href="./resources/css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap -->
+    <link href="./resources/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link href="./resources/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="./resources/css" rel="stylesheet">
+    <script type="text/javascript" src="./resources/jquery-1.12.4.min.js"></script>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+    <div id="main-wrapper">
+        <!-- Page Preloader -->
+        <div id="preloader" style="display: none;">
+            <div id="status">
+                <div class="status-mes"></div>
+            </div>
+        </div>
+
+        <header class="header">
+            <!-- Navigation -->
+            <nav class="navbar main-menu" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-main-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!--<a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" alt=""></a>-->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                        <ul class="nav navbar-nav">
+                            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                            <li class="hidden active"><a href="#page-top"></a></li>
+                            <li class=""><a class="page-scroll" href="#section-intro">Introduction</a></li>
+                            <li class=""><a class="page-scroll" href="#section-cfp">Call</a></li>
+                            <li class=""><a class="page-scroll" href="#section-dates">Important Dates</a></li>
+                            <li class=""><a class="page-scroll" href="#section-ajenda">Programs</a></li>
+                            <li class=""><a class="page-scroll" href="#section-organizer">Organizers</a></li>
+                            <li class=""><a class="page-scroll" href="#section-pc">Committee</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container -->
+            </nav>
+
+            <!-- .nav -->
+
+        </header>
+
+        <div class="jumbotron text-center">
+            <div class="content">
+<!--                 <h1>Session on Causal Inference Analysis for Information Retrieval, INFORMS 2021</h1> -->
+<!--                 <div class="event-date">October 25 11:00am (PDF) - October 25 12:30mm (PDT), 2021 </div> -->
+            </div>
+        </div>
+        <!-- .Jumbotron-->
+
+
+    <!-- Introduction Section -->
+    <section id="section-intro" class="section-wrapper about-event">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1>Decision Making for Modern Information Retrieval System </h1>
+                 </div>
+            </div>
+
+            <div class="row text-justify">
+                <div class="col-md-12">
+                        <p class="large text-muted">
+                            Information retrieval (IR) systems have experienced extraordinary progress fueled by deep learning in the past decade. The success of neural networks has brought tremendous opportunities to model highly complex patterns in the collected data for prediction; however, the critical transition from model prediction to the final decision making in IR is far from trivial. What distinguishes IR from other domains such as computer vision and natural language processing is that it interacts directly with users and inherently involves making many complex decisions to satisfy information and user needs -- the mere prediction of relevance or classification of content is not enough. There are many desirable properties besides accuracy that IR systems should possess, such as robustness (stability), potential negative impact, long-term utility, as well as the satisfaction of various parties involved. Historically, there have always been gaps between pattern prediction and making decisions, and many of the algorithmic approaches make oversimplified assumptions about human behavior. As more and more IR tasks can accurately be solved by deep learning, the major research and production efforts have shifted to the pattern recognition side of machine learning. This leads to the aforementioned gaps being further enlarged. Ultimately, this hinders overall progress since it is unknown to which degree the improvements in relevance prediction and pattern recognition actually improve real-world decision making and complex tasks.
+                        </p>
+                        <p class="large text-muted">
+                            In recent years, we have seen an increasing number of research projects approaching the gaps via techniques such as causal inference, bandits, and reinforcement learning. Nevertheless, decision making for modern IR stands out as a novel scientific discipline where causal modelling and exploration-exploitation solutions, if practical, only answer part of the questions. On the other hand, decision making has also been long-studied by other domains such as marketing, economy, and some branches of statistics. Also, for IR systems, innovations in decision making must be accompanied by sufficient infrastructural support. 
+                        </p>
+                </div>
+            </div>
+
+            <p style="color:red"><b>Workshop Date and Location: </b> </p>
+                    <p> The workshop will be held on <b> Feb 25, 2022 </b> in Pheonix, Arizona, as the in-person option. There will be a virtual option as well. 
+            </p>
+
+            <p style="color:red"><b>Attendence regarding COVID: </b> </p>
+                    <p> We haven't received information from the conference organizers regarding the attendence and accomodations. Please stay tuned for updates.
+            </p>
+
+            <p style="color:red"><b>Registration Information: </b> </p>
+                    <p> Please note that all workshop attendees must be registered, either into the whole conference, or
+                        in a workshop only registration. Please refer to the <a href="https://www.wsdm-conference.org/2022/">WSDM 2022</a> main conference website for more information
+                        regarding the registration.
+            </p>
+    </section>
+
+
+    <!-- CFP Section -->
+    <section id="section-cfp" class="section-wrapper pricing-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="section-title">Call For Papers</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="large text-muted">
+                            Most IR systems can be described by a pattern recognition stage and a decision-making stage. In the past decade, the flourishing of deep learning has provided IR with unprecedented opportunities for mining complex signals from collected data, shifting the public focus vastly toward the pattern recognition end. However, making predictions based on the discovered patterns is merely the first step toward information retrieval: the agent must strategically decide how to leverage the predictions to maximize the various utilities of different parties. Proposed in a timely manner, this workshop aims to bring together researchers and practitioners from academia and industry for the critical challenges of transitioning the pattern recognition outcome to effective decision making in IR. Crucially, the decision making strategy will have a considerable impact on the immediate performance and long-term development of real-world web search and data mining applications.
+
+                        </p>
+
+                        <p class="large text-muted">
+                            We wish to unite researchers and practitioners from various backgrounds to identify the emerging challenges, discover the connections from various domains, and study promising solutions of decision making for modern infromation retrieval systems. We note that the decision making strategy may impact either the immediate performance and long-term development of real-world web search and data mining applications. We also pay special attention to the role of human involvement in practical decision making, and motivate novel applications and business incentives. 
+
+                        </p>
+                        <p class="large text-muted">
+                            Specific topics of interest are including but not limited to:
+                        </p>
+                        <ol>
+                            <li> Emerging challenges in decision making for modern IR systems, including search, recommendation and advertising;
+                            <li> User-centric evaluation of decision making with IR systems;
+                            <li> Frameworks or end-to-end solutions for industrial large-scale IR decision making;
+                            <li> Designing and optimizing online or user experiments for IR systems;
+                            <li> Online (sequential) decision making with bandits and reinforcement learning;
+                            <li> Robust & uncertainty-aware decision making for IR;
+                            <li> Practical causal inference & counterfactual reasoning for decision making in IR;
+                            <li> Connecting the tools and theories for decision making from other domains, e.g. marketing, econometric and statistics, to IR problems;
+                            <li> Modern theory of decision making;
+                            <li> Existing or novel applications relevant to decision making in IR;
+                            <li> Multi-objective or multi-modality problems of decision making;
+                            <li> Conformal inference, online & multiple hypothesis testing, and false discovery control;
+                        </ol>
+                    </div>
+
+                    <p class="large text-muted">
+                        <b>Submission Directions:</b>
+                    <p>
+                        The workshop accepts long papers (limited to 9 pages), short papers (6 pages), posters (4
+                        pages), abstracts and demos (2 pages). Paper submission and reviewing will be following the
+                        directions of the KDD main conference. Reviews are <b>not double-blind</b>, and author names
+                        and affiliations should be listed. Submissions should include all content and references
+                        within the limited pages, and must be in PDF format and formatted according to the new
+                        Standard ACM Conference Proceedings Template. For LaTeX users: unzip acmart.zip, make, and
+                        use sample-sigconf.tex as a template. Additional information about formatting and style
+                        files is available online at: https://www.acm.org/publications/proceedings-template.
+                        Papers that do not meet the formatting requirements will be rejected without review.
+                        In addition, authors can provide an optional two (2) page supplement at the end of their
+                        submitted paper (it needs to be in the same PDF file) focused on reproducibility.
+                    <p>Please submit your paper through <a href="">this
+                            Easychair link</a>.
+                        Please reach out to <a href=""> Email </a> or
+            <a href=""> Email </a> for any questions.
+                    </p>
+
+                    </p>
+                    </p>
+                </div>
+
+              </div>
+            <!-- /.container -->
+            </div>
+    </section>
+
+
+    <!-- Dates Section -->
+    <section id="section-dates" class="section-wrapper about-event">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Important Dates</h1>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-2 text-left">
+                </div>
+
+                <div class="col-lg-10 text-left">
+                    <div class="col-md-12">
+                        <p class="large text-muted">
+                            <b> <ins>Dec 18, 2021 (AOE):</ins> : </b> Workshop paper submission deadline
+                        </p>
+                        <p class="large text-muted">
+                            <b> <ins>Jan 20, 2022:</ins> : </b> <span class="text-muted"> Workshop paper notifications
+                            </span>
+                        </p>
+                        <p class="large text-muted">
+                            <b>Feb 10, 2022 (AOE):</b> <span class="text-muted"> Camera-ready deadline for workshop
+                                papers (Tentative) </span>
+                        </p>
+                        <p class="large text-muted">
+                            <b>Feb 25, 2022:</b> Workshop Date
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Agenda Section -->
+    <section id="section-ajenda" class="section-wrapper section-ajenda">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h1>Workshop Agenda</h1>
+                        </div>
+                    </div>
+                </div>
+
+
+                                <style type="text/css">
+                    .tftable {
+                        font-size: 15px;
+                        color: #333333;
+                        width: 100%;
+                        border-width: 1px;
+                        border-color: #729ea5;
+                        border-collapse: collapse;
+                    }
+
+                    .tftable th {
+                        font-size: 15px;
+                        background-color: #acc8cc;
+                        border-width: 1px;
+                        padding: 8px;
+                        border-style: solid;
+                        border-color: #729ea5;
+                        text-align: left;
+                    }
+
+                    .tftable tr {
+                        background-color: #d4e3e5;
+                    }
+
+                    .tftable td {
+                        font-size: 15px;
+                        border-width: 1px;
+                        padding: 8px;
+                        border-style: solid;
+                        border-color: #729ea5;
+                    }
+
+                    .tftable tr:hover {
+                        background-color: #ffffff;
+                    }
+                </style>
+
+                <table class="tftable" border="1">
+                    <tr>
+                        <th>Time</th>
+                        <th>Speaker</th>
+                        <th>Title</th>
+                    </tr>
+
+                    <tr>
+                        <td>8:00 am - 8:10 am (MST)
+                        <td>Host Chair</td>
+                        <td>Welcome and Open Remarks</td>
+                    </tr>
+
+                    <tr>
+                        <td>8:10 am - 8:40 am (MST)
+                        <td>Keynote Speaker 1</td>
+                        <td>TBD</td>
+                    </tr>
+
+                    <tr>
+                        <td>8:40 am - 9:10 am (MST)
+                        <td>Keynote Speaker 2</td>
+                        <td>TBD</td>
+                    </tr>
+
+                    <tr>
+                        <td>9:10 am - 9:40 am (MST)
+                        <td>Keynote Speaker 3</td>
+                        <td>TBD</td>
+                    </tr>
+
+                    <tr>
+                        <td>9:40 am - 10:00 am (MST)
+                        <td>Coffee Break</td>
+                        <td>Social</td>
+                    </tr>
+
+                    <tr>
+                        <td>10:00 am - 10:30 am (MST)
+                        <td>Keynote Speaker 4</td>
+                        <td>TBD</td>
+                    </tr>
+
+                    <tr>
+                        <td>10:30 am - 11:00 am (MST)
+                        <td>Oral Presentations of selected papers</td>
+                        <td>TBD</td>
+                    </tr>
+
+                    <tr>
+                        <td>11:00 am - 11:30 am (MST)
+                        <td>Panel Discussion</td>
+                        <td>Panelists TBD</td>
+                    </tr>
+
+                    <tr>
+                        <td>11:30 am - 12:30 am (MST)
+                        <td>Poster Session</td>
+                        <td>Poster presentation of the accapted papers.</td>
+                    </tr>
+
+                </table>
+            </div>
+    </section>
+
+
+
+    <!-- Organizer Section -->
+    <section id="section-organizer" class="section-wrapper team">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Organizers</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <figure class="thumbnail">
+                    <a href="https://www.linkedin.com/in/da-xu-62106b159/"><img src="./images/da.jpeg" class="img-responsive"
+                            alt="Da Xu"></a>
+                    <figcaption class="caption text-center">
+                        <h3>Da Xu 
+                            <small>Machine Learning Manager</small>
+                            <small> Walmart Labs </small>
+                        </h3>
+
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-md-4">
+                <figure class="thumbnail">
+                    <a href="http://jianpeng-xu.github.io//"><img src="./images/jianpeng.jpeg"
+                            class="img-responsive" alt="Jianpeng Xu"></a>
+                    <figcaption class="caption text-center">
+                        <h3>Jianpeng Xu
+                            <small>Staff Data Scientist</small>
+                            <small> Walmart Labs </small>
+                        </h3>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-md-4">
+                <figure class="thumbnail">
+                    <a href="https://www.cse.msu.edu/~tangjili/"><img src="./images/jiliang.jpeg"
+                            class="img-responsive" alt="Jiliang Tang"></a>
+                    <figcaption class="caption text-center">
+                        <h3>Jiliang Tang
+                            <small>Associate Professor </small>
+                            <small> Michigan State University </small>
+                        </h3>
+                    </figcaption>
+                </figure>
+            </div>
+
+
+            <div class="col-md-4">
+                    <figure class="thumbnail">
+                        <a href="https://www.linkedin.com/in/min-l-15696b43/"><img src=""
+                                class="img-responsive" alt="Min Liu"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Min Liu
+                                <small>Engineering Manager</small>
+                                <small> LinkedIn </small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+            </div>
+
+
+            <div class="col-md-4">
+                    <figure class="thumbnail">
+                        <a href="https://www.microsoft.com/en-us/research/people/toschnab/"><img src="./images/tobias.jpeg"
+                                class="img-responsive" alt="Tobias Schnabel"></a>
+                        <figcaption class="caption text-center">
+                            <h3> Tobias Schnabel
+                                <small>Senior Researcher</small>
+                                <small> Microsoft Research </small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- Committee Section -->
+    <section id="section-pc" class="section-wrapper pricing-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="section-title">Program Committee</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="large text-muted">
+                        We want to thank our program committee members for their hard work to select the valuable
+                        publications for our workshop.
+                    </p>
+                    <ul>
+                        <li> <b>Bo Yang</b>,   Machine Learning Engineer @ LinkedIn
+                        <li> <b>Chuanwei Ruan</b>, Senior Machine Learning Engineer @ Instacart
+                        <li> <b>Cheng Jie</b>, Staff Data Scientist @ Walmart Labs
+                        <li> <b>Danqing Zhang</b>,   Applied Scientist @ Amazon
+                        <li> <b>Fengshi Niu</b>,   Postdoctorial Rsearch Fellow @ Stanford
+                        <li> <b>Sushant Kumar</b>,   Director of Recommendation @ Walmart Labs
+                        <li> <b>Shuyuan Xu</b>,   PhD. candidate @ Rutgers University
+                        <li> <b>Yuting Ye</b>,   Assistant Professor @ Southern University of Science and Technology
+                        <li> <b>Zenan Wang</b>,   Research Scientist @ JD.com
+                        <li> <b>To be continued...</b>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer">
+        <div class="copyright-section">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="copytext text-center">Copyright © 2021. Da Xu. All rights reserved.</div>
+                </div>
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .copyright-section -->
+    </footer>
+    <!-- .footer -->
+
+    <!-- #main-wrapper -->
+
+
+    <!-- jquery -->
+    <script src="./resources/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="./resources/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="./resources/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <!---<script src="https://maps.googleapis.com/maps/api/js"></script>--->
+
+    <!--<script src="js/one-page-nav.js"></script>-->
+    <script src="./resources/scripts.js"></script>
+
+    <div class="jvectormap-tip"></div>
+</body>
+<div id="slickdeals" data-initialized="1"></div>
+
+</html>
